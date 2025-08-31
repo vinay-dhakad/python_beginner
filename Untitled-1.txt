@@ -1,0 +1,5 @@
+name = "kundan" 
+age = 19
+work = "bachelor"
+
+print(name)
