@@ -1,0 +1,14 @@
+#01.py
+a = 2
+b = 4.66
+sum = a+b #float is superior than int , so 2.0 + 4.66 => 6.66
+
+
+print(sum) 
+
+
+a = "2"
+b = 4.66
+sum = a+b #the addition of string and float is not allowed so it will show error.
+
+print(sum)
