@@ -1,0 +1,23 @@
+#a = int("2") #to convert any value into int (integer) we use int(value).
+ b = 4.55
+
+print(type(a))
+print(a+b)
+
+#a = float("arun") #it will show error because any of character string cannot be converted into float.
+b = 4.55
+
+print(type(a))
+print(a+b)
+
+
+#a = float("5") #to covert any value into float we use float(value)
+b = 4.55
+
+print(type(a))
+print(a+b)
+
+#a = 3.34  #to convert any number into string we use str(no.)
+a = str(a)
+
+print(type(a))
