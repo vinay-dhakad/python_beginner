@@ -1,0 +1,22 @@
+INDEXING: we can say that index is a position no. of character in the string.
+index helps us to excess character.
+ex:
+SCHOOL_MATE
+012345678910
+# str = "SCHOOL_MATE"
+# ch = str[0]
+# print(ch)
+
+str = "SCHOOL_MATE"
+ch = str[6]
+print(ch)
+
+str = "SCHOOL_MATE"
+print(str[9])
+
+we can't change our character with the help of index.
+ex:
+ str = "SCHOOL_MATE"
+str [4] = "@"
+print(str)
+TypeError: 'str' object does not support item assignment

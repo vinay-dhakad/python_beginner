@@ -12,8 +12,11 @@
 # print(type(val), val)  
 
 
-name = input("enter name: ")
-age = input("enter age: ")
-marks = input("enter marks: ")
+# name = input("enter name: ")
+# age = input("enter age: ")
+# marks = input("enter marks: ")
 
-print("welcome", name )
+# print("welcome", name )
+
+
+input("enter your name")
