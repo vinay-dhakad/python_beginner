@@ -1,5 +1,6 @@
-# name = input("enter your name ")
-# print("Welcome ", name )
+name = input("enter your name ")
+print("Welcome ", name )
+print("length of your name is ",len(name))
 
 
 # int("5")
