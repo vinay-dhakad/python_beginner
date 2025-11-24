@@ -11,3 +11,5 @@ list.remove(1)
 print(list)
 list.pop(1)
 print(list)
+
+# 
