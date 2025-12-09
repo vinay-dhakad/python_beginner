@@ -1,8 +1,8 @@
+nums = [1,4,9,16,25,36,49,64,81,100,64]
+x = 49
 
-i = 0
-while i <= 5:
-    if( i == 3):
-        i += 1
-        continue
-    print(i)
-    i += 1 
+idx = 0
+for el in nums :
+    if(el == x):
+        print("num found at idx", idx)
+        idx +=1 
