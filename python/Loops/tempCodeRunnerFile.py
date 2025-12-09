@@ -1,8 +1,2 @@
-nums = [1,4,9,16,25,36,49,64,81,100,64]
-x = 49
-
-idx = 0
-for el in nums :
-    if(el == x):
-        print("num found at idx", idx)
-        idx +=1 
+for i in range(10):  #range(stop)
+#     print(i)
