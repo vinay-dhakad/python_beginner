@@ -46,4 +46,4 @@ calc_avg(98, 2 ,44)
 
 
 print("modi ji",end=" ") #sep = " "      #built-in functn
-print("putin ji" ) #end = "\n"
+print("putin ji" ) #end = "\n"           #print in a same line.

@@ -1,13 +1,9 @@
-def cal_prod(a=2,b=2):
-#     print(a*b)
-#     return a*b
+cities = ["Delhi","Mumbai","Badwan","Pune","Chennai"]
+heroes = ["Thor","Ironman","Temba Bauma"]
 
-# cal_prod()     
+def print_len(list):
+    print(len(list))
 
-
-# def cal_prod(a,b=2):
-#     print(a*b)
-#     return a*b
-
-# cal_prod(1)     
-
+def print_list(list):
+    for item in list:
+        print(item, end=" ")
