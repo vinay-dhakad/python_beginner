@@ -84,20 +84,32 @@
 
 
 
+# class Student:
+#     college_name = "ABC College"     #class attribute
+
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new students in Database..")
+
+#     def welcome(self):
+#         print("welcome student,", self.name)
+
+#     def get_marks(self):
+#         return self.marks
+
+# s1 = Student("rahul gandhi", 1)
+# s1.welcome()
+# print(s1.get_marks())
+
+
+
+#del keyword
+
 class Student:
-    college_name = "ABC College"     #class attribute
-
-    def __init__(self, name, marks):
+    def __init__(self, name):
         self.name = name
-        self.marks = marks
-        print("adding new students in Database..")
-
-    def welcome(self):
-        print("welcome student,", self.name)
-
-    def get_marks(self):
-        return self.marks
-
-s1 = Student("rahul gandhi", 1)
-s1.welcome()
-print(s1.get_marks())
+s1 = Student("trump")
+print(s1.name)
+del s1.name
+print(s1.name)
