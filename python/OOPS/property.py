@@ -13,4 +13,4 @@ stu1 = Student(98, 97, 99)
 print(stu1.percentage)
 
 stu1.phy = 86
-print(stu1.percentage)
+prin t(stu1.percentage)
